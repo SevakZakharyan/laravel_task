@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to right, #b92b27, #1565c0);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.formContent{
+    width: 50%;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+button[type=submit]{
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #3868cd;
+    display: inline-block;
+    line-height: 35px;
+    padding: 0 50px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+}
+
+input[type=text]
+{
+    
+    line-height: 50px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    padding: 0 20px;
+    color:black;
+    transition: all 0.4s ease;
+    outline: none;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    width: 70%;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+.answer_block{
+    margin-left: 20px;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
